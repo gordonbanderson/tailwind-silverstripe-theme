@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    h1 {
+        @apply text-2xl;
+    }
+    h2 {
+        @apply text-xl;
+    }
+
+
+}
+
+@layer components {
+    .btn-google {
+        @apply bg-gray-200 border border-gray-300 py-3 px-4 rounded hover:bg-gray-400 hover:border-gray-500;
+    }
+
+    .header {
+        background: yellow;
+        @apply w-full overflow-hidden pb-4;
+    }
+
+    .content  {
+        background: beige;
+        @apply w-full overflow-hidden pt-4 pb-4;
+    }
+
+    .footer {
+        background: cyan;
+        @apply w-full overflow-hidden pt-4;
+    }
+}
+
+
+
+.quotation p {
+    margin-bottom: 1.25rem;
+}

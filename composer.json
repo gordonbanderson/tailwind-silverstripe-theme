@@ -1,0 +1,23 @@
+{
+    "name": "suilven/default-ss4-tailwind-theme",
+    "description": "Base tailwind build tools, templates and CSS for a basic install",
+    "type": "silverstripe-theme",
+    "keywords": ["silverstripe", "theme", "suilven", "tailwind"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Gordon Anderson"
+        }
+    ],
+    "require": {
+        "composer/installers": "*",
+        "silverstripe/framework": ">=4.0"
+    },
+	"extra": {
+        "expose": [
+            "dist"
+        ]
+	},
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -1,0 +1,25 @@
+{
+  "name": "tailwind-theme-ss",
+  "version": "1.0.0",
+  "description": "Base Tailwind theme for SilverStripe",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mix",
+    "watch": "mix watch",
+    "watch:prod": "mix watch --production",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "mix --production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.2.17"
+  },
+  "devDependencies": {
+    "eslint-webpack-plugin": "^3.0.1",
+    "laravel-mix": "^6.0.34",
+    "laravel-mix-eslint": "^0.2.0",
+    "postcss-import": "^14.0.2"
+  }
+}
